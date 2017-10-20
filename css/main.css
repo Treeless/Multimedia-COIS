@@ -1,0 +1,115 @@
+@import "https://fonts.googleapis.com/css?family=Poiret+One|Pacifico";
+
+body,
+html {
+  background-color: #151b1e;
+  height: 100%;
+  color: #556d7c;
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+body {}
+
+header {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a{
+  color: lightblue;
+}
+
+#profile-pic{
+  border-radius: 1000px; /* Circle */
+  height: 350px;
+}
+
+#main-essay {
+  max-width: 1000px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#content{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  padding-bottom: 15px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Poiret One, cursive;
+}
+
+#index-content{
+  text-align:center;
+}
+#index-content > div{
+  display:inline-block;
+}
+#welcome{
+  vertical-align:top;
+  width: 500px;
+}
+
+#site-brand {
+  display: inline-block;
+}
+
+#site-brand #myname {
+  font-size: 28px;
+}
+
+#site-brand #course-name {
+  color: lightyellow;
+  font-size: 24px;
+  font-family: 'Pacifico', cursive;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  /*border: 1px solid #556d7c;*/
+  padding: 10px;
+  border-bottom: 1px solid #556d7c;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #556d7c;
+}
+
+nav ul .active {
+  /*background-color: #556d7c;*/
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  border-radius: 7px;
+}
+
+nav ul li:hover {
+  /*background-color: #556d7c;*/
+  border-bottom: 1px solid #FFFFFF;
+}
+
+nav ul li:hover a {
+  color: #FFFFFF;
+}
+
+nav ul .active a {
+  color: #FFFFFF;
+}
