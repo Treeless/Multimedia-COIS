@@ -13,9 +13,10 @@ html {
 body {}
 
 header {
-  width: 60%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
+  text-align:center;
 }
 
 a{
@@ -27,6 +28,14 @@ blockquote{
   padding-left: 4px;
   padding-right: 4px;
   background-color: rgba(255,255,255,0.025);
+}
+
+#video-expl{
+  width: 50%;
+  min-width: 500px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
 }
 
 #profile-pic{
@@ -49,6 +58,13 @@ blockquote{
 
 h2 {
   padding-bottom: 15px
+}
+
+#video-content {
+  width: 80%;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
 }
 
 h1,
