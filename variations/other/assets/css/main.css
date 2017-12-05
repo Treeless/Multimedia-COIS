@@ -2858,3 +2858,8 @@ body.is-covered #wrapper {
 #floating-nav ul .selected {
   list-style-type: circle;
 }
+
+#floating-nav ul li:hover{
+  cursor:pointer;
+  text-decoration:underline;
+}
