@@ -1,0 +1,133 @@
+@import "https://fonts.googleapis.com/css?family=Pacifico";
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Neue, sans-serif;
+}
+img{
+  max-width: 100%;
+  height:auto;
+}
+p,
+span {
+  font-family: Georgia, sans-serif;
+}
+
+#header-inner{
+  padding: 10px;
+}
+
+#header-inner #brand {
+  color: lightyellow;
+  font-size: 24px;
+  font-family: 'Pacifico', cursive;
+}
+
+header {
+  background-color: lightgreen;
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  padding: 0;
+  margin: 0;
+  height: 60px;
+}
+
+footer {
+  background-color: lightgreen;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 150px;
+  margin-top: 10px;
+}
+
+#footer-inner {
+  padding-top: 15px;
+  text-align: center;
+}
+
+#main-container nav {
+  max-width: 350px;
+  width: 30%;
+}
+
+#main-container nav ul li {
+  list-style: none;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: lightgreen;
+  display: block;
+  margin: 10px;
+  border: 1px solid forestgreen;
+}
+
+#main-container nav ul li a {
+  text-decoration: none;
+  color: darkgreen;
+  font-size: 18px;
+  display: block;
+}
+
+.active {
+  background-color:white !important;
+}
+
+#main-container nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+#main-container nav ul li:hover {
+  background-color: white;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#main-content {
+  width: 70%;
+  border-radius: 7px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  min-height: 250px;
+  animation: all 1s;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+/*Layouts */
+@media only all and (max-width: 1200px) {
+  /*smaller screens*/
+  #main-container #main-content {
+   width: 65%;
+  }
+}
+
+@media only all and (max-width: 800px) {
+  /*tablets*/
+  #main-container nav {
+    max-width: 100%;
+    width: 30%;
+  }
+}
+
+@media only all and (max-width: 600px) {
+  /*phones*/
+  #main-container #main-content {
+   width: 100%;
+   display:block;
+  }
+
+  #main-container nav {
+    max-width: 100%;
+    width: 100%;
+  }
+}
